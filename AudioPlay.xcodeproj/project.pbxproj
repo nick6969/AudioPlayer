@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0105C0DE260C4863000AF484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0DD260C4863000AF484 /* AppDelegate.swift */; };
 		0105C0E0260C4863000AF484 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0DF260C4863000AF484 /* SceneDelegate.swift */; };
-		0105C0E2260C4863000AF484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0E1260C4863000AF484 /* ViewController.swift */; };
-		0105C0E5260C4863000AF484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0105C0E3260C4863000AF484 /* Main.storyboard */; };
 		0105C0E7260C4864000AF484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0105C0E6260C4864000AF484 /* Assets.xcassets */; };
 		0105C0EA260C4864000AF484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0105C0E8260C4864000AF484 /* LaunchScreen.storyboard */; };
 		0105C0F5260C4864000AF484 /* AudioPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0F4260C4864000AF484 /* AudioPlayTests.swift */; };
@@ -38,8 +36,6 @@
 		0105C0DA260C4863000AF484 /* AudioPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0105C0DD260C4863000AF484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0105C0DF260C4863000AF484 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0105C0E1260C4863000AF484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0105C0E4260C4863000AF484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0105C0E6260C4864000AF484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0105C0E9260C4864000AF484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0105C0EB260C4864000AF484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +97,6 @@
 			children = (
 				0105C0DD260C4863000AF484 /* AppDelegate.swift */,
 				0105C0DF260C4863000AF484 /* SceneDelegate.swift */,
-				0105C0E1260C4863000AF484 /* ViewController.swift */,
-				0105C0E3260C4863000AF484 /* Main.storyboard */,
 				0105C0E6260C4864000AF484 /* Assets.xcassets */,
 				0105C0E8260C4864000AF484 /* LaunchScreen.storyboard */,
 				0105C0EB260C4864000AF484 /* Info.plist */,
@@ -233,7 +227,6 @@
 			files = (
 				0105C0EA260C4864000AF484 /* LaunchScreen.storyboard in Resources */,
 				0105C0E7260C4864000AF484 /* Assets.xcassets in Resources */,
-				0105C0E5260C4863000AF484 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0105C0E2260C4863000AF484 /* ViewController.swift in Sources */,
 				0105C0DE260C4863000AF484 /* AppDelegate.swift in Sources */,
 				0105C0E0260C4863000AF484 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,14 +288,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0105C0E3260C4863000AF484 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0105C0E4260C4863000AF484 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0105C0E8260C4864000AF484 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kcin.nil.AudioPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kcin.nil.AudioPlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
