@@ -14,6 +14,11 @@
 		0105C0F5260C4864000AF484 /* AudioPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0F4260C4864000AF484 /* AudioPlayTests.swift */; };
 		0105C100260C4864000AF484 /* AudioPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C0FF260C4864000AF484 /* AudioPlayUITests.swift */; };
 		0105C11C260C4DF5000AF484 /* mLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C11B260C4DF5000AF484 /* mLayout.swift */; };
+		0105C131260D2BCC000AF484 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0105C130260D2BCC000AF484 /* MainVC.swift */; };
+		015752002612D4640076D0B0 /* DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015751FF2612D4630076D0B0 /* DemoVC.swift */; };
+		015752052612D5780076D0B0 /* Demos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015752042612D5780076D0B0 /* Demos.swift */; };
+		016E1B2C26128502005FE4C9 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E1B2B26128502005FE4C9 /* Tools.swift */; };
+		01B4B3B9261311CD00A0C0C9 /* PlayControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B4B3B8261311CD00A0C0C9 /* PlayControlVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		0105C0FF260C4864000AF484 /* AudioPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayUITests.swift; sourceTree = "<group>"; };
 		0105C101260C4864000AF484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0105C11B260C4DF5000AF484 /* mLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mLayout.swift; sourceTree = "<group>"; };
+		0105C130260D2BCC000AF484 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		015751FF2612D4630076D0B0 /* DemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoVC.swift; sourceTree = "<group>"; };
+		015752042612D5780076D0B0 /* Demos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demos.swift; sourceTree = "<group>"; };
+		016E1B2B26128502005FE4C9 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		01B4B3B8261311CD00A0C0C9 /* PlayControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayControlVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		0105C0DC260C4863000AF484 /* AudioPlay */ = {
 			isa = PBXGroup;
 			children = (
+				0105C12F260D2BBD000AF484 /* ViewController */,
 				0105C119260C4DDE000AF484 /* Tools */,
 				0105C0DD260C4863000AF484 /* AppDelegate.swift */,
 				0105C0DF260C4863000AF484 /* SceneDelegate.swift */,
@@ -128,6 +139,7 @@
 		0105C119260C4DDE000AF484 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				016E1B2B26128502005FE4C9 /* Tools.swift */,
 				0105C11A260C4DE8000AF484 /* Layout */,
 			);
 			path = Tools;
@@ -139,6 +151,17 @@
 				0105C11B260C4DF5000AF484 /* mLayout.swift */,
 			);
 			path = Layout;
+			sourceTree = "<group>";
+		};
+		0105C12F260D2BBD000AF484 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0105C130260D2BCC000AF484 /* MainVC.swift */,
+				015751FF2612D4630076D0B0 /* DemoVC.swift */,
+				015752042612D5780076D0B0 /* Demos.swift */,
+				01B4B3B8261311CD00A0C0C9 /* PlayControlVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0105C0DE260C4863000AF484 /* AppDelegate.swift in Sources */,
+				0105C131260D2BCC000AF484 /* MainVC.swift in Sources */,
 				0105C11C260C4DF5000AF484 /* mLayout.swift in Sources */,
 				0105C0E0260C4863000AF484 /* SceneDelegate.swift in Sources */,
+				015752002612D4640076D0B0 /* DemoVC.swift in Sources */,
+				016E1B2C26128502005FE4C9 /* Tools.swift in Sources */,
+				01B4B3B9261311CD00A0C0C9 /* PlayControlVC.swift in Sources */,
+				015752052612D5780076D0B0 /* Demos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
